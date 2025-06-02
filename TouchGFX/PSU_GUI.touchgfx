@@ -1,0 +1,1659 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "ScrollableContainer",
+            "Name": "scrollableContainer1",
+            "Y": 80,
+            "Width": 400,
+            "Height": 333,
+            "HorizontalScrollEnabled": true,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisibleOnPressed": true,
+            "ScrollbarsAlpha": 255,
+            "Components": []
+          },
+          {
+            "Type": "ScrollableContainer",
+            "Name": "scrollableContainer1_1",
+            "X": 400,
+            "Y": 80,
+            "Width": 400,
+            "Height": 333,
+            "HorizontalScrollEnabled": true,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisibleOnPressed": true,
+            "ScrollbarsAlpha": 255,
+            "Components": []
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1_1",
+            "Y": 28,
+            "Width": 400,
+            "Height": 412,
+            "Filename": "__generated\\dark_theme_images_containers_large_narrow_dark.png",
+            "ScalingAlgorithm": "Bilinear Interpolation"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "X": 400,
+            "Y": 28,
+            "Width": 400,
+            "Height": 412,
+            "Filename": "__generated\\dark_theme_images_containers_large_narrow_dark.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2",
+            "Y": -6,
+            "Width": 800,
+            "Height": 80,
+            "Filename": "__generated\\alternate_theme_images_effects_800x480_shade_bottom_light.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2_1",
+            "Y": 400,
+            "Width": 800,
+            "Height": 80,
+            "Filename": "__generated\\alternate_theme_images_effects_800x480_shade_top_dark.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage3",
+            "Width": 242,
+            "Height": 40,
+            "Filename": "logo.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "dynamicGraph1",
+            "X": 400,
+            "Y": 80,
+            "Width": 400,
+            "Height": 320,
+            "DataSeed": 1077067039,
+            "NumberOfValues": 100,
+            "MaxY": 100.0,
+            "Precision": "0.001",
+            "UseCustomVisibleDataPointRange": true,
+            "LastIndex": 25,
+            "MapDataPointIndexToCustomValue": true,
+            "XAxisScale": 25.0,
+            "InsertRandomValues": true,
+            "GraphType": "GraphWrapOverwrite",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 4,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 166,
+                  "Green": 72,
+                  "Blue": 224
+                }
+              },
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 84,
+                  "Green": 227,
+                  "Blue": 79
+                }
+              },
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 20,
+                  "Green": 151,
+                  "Blue": 197
+                }
+              }
+            ],
+            "XAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 168,
+                "Green": 176,
+                "Blue": 178
+              },
+              "Interval": 2.0,
+              "LineWidth": 1
+            },
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 157,
+                "Green": 162,
+                "Blue": 163
+              },
+              "Interval": 10.0,
+              "LineWidth": 1
+            },
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 10.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 153,
+                "Green": 161,
+                "Blue": 163
+              },
+              "TextId": "__SingleUse_0AZ9",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 10.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 93,
+                "Green": 94,
+                "Blue": 94
+              },
+              "TextId": "__SingleUse_946F",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel1",
+            "Y": 440,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_inactive.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_disabled.png",
+            "TextId": "__SingleUse_2SHY",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 250,
+              "Blue": 250
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "overVoltageProtection",
+            "X": 600,
+            "Y": 440,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_inactive.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_disabled.png",
+            "TextId": "__SingleUse_R5H9",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 250,
+              "Blue": 250
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "overCurrentProtection",
+            "X": 700,
+            "Y": 440,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_inactive.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_disabled.png",
+            "TextId": "__SingleUse_RSAU",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 250,
+              "Blue": 250
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel1_1",
+            "X": 100,
+            "Y": 440,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_inactive.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_disabled.png",
+            "TextId": "__SingleUse_09ND",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 250,
+              "Blue": 250
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "buttonWithIcon1",
+            "X": 200,
+            "Y": 440,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_inactive.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_outline_45_45_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_done_45_45_E8F6FB.svg.png",
+            "IconX": 25,
+            "IconY": -4,
+            "IconHeight": 45,
+            "IconWidth": 45
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "buttonWithIcon1_1",
+            "X": 300,
+            "Y": 440,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_inactive.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_action_list_32_32_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_communication_list_alt_32_32_E8F6FB.svg.png",
+            "IconX": 34,
+            "IconY": 2,
+            "IconHeight": 32,
+            "IconWidth": 32
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 459,
+            "Y": 400,
+            "Width": 74,
+            "Height": 38,
+            "TextId": "__SingleUse_XTRP",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 105,
+              "Green": 227,
+              "Blue": 52
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_FPDT",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_2",
+            "X": 276,
+            "Y": 80,
+            "Width": 124,
+            "Height": 38,
+            "TextId": "__SingleUse_CSUH",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 97,
+              "Green": 255,
+              "Blue": 69
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_7W2R",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "vSet",
+            "X": 276,
+            "Y": 118,
+            "Width": 124,
+            "Height": 38,
+            "TextId": "__SingleUse_S1FZ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 247,
+              "Green": 231,
+              "Blue": 49
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_754Z",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_2_1_2",
+            "Y": 87,
+            "Width": 200,
+            "Height": 69,
+            "TextId": "__SingleUse_3ZBU",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 247,
+              "Green": 231,
+              "Blue": 49
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_XOIK",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_2_1_2_1",
+            "Y": 160,
+            "Width": 200,
+            "Height": 69,
+            "TextId": "__SingleUse_521A",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 247,
+              "Green": 231,
+              "Blue": 49
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_9K3B",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_2_1_2_2",
+            "Y": 232,
+            "Width": 200,
+            "Height": 69,
+            "TextId": "__SingleUse_DZU7",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 187,
+              "Green": 69,
+              "Blue": 214
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_OH3U",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1",
+            "X": 533,
+            "Y": 400,
+            "Width": 67,
+            "Height": 38,
+            "TextId": "__SingleUse_4ML6",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 161,
+              "Green": 111,
+              "Blue": 227
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_35A4",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1_1",
+            "X": 622,
+            "Y": 400,
+            "Width": 178,
+            "Height": 38,
+            "TextId": "__SingleUse_PBKS",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 101,
+              "Green": 194,
+              "Blue": 235
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_XXG2",
+              "UseBuffer": true,
+              "BufferSize": 100
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 211,
+            "Y": 94,
+            "Width": 62,
+            "Height": 24,
+            "TextId": "__SingleUse_PLC4",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 92,
+              "Green": 209,
+              "Blue": 42
+            },
+            "AutoSize": true,
+            "WideTextAction": 1,
+            "Fadeable": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_1",
+            "X": 211,
+            "Y": 132,
+            "Width": 62,
+            "Height": 24,
+            "TextId": "__SingleUse_6ACG",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 250,
+              "Green": 216,
+              "Blue": 22
+            },
+            "AutoSize": true,
+            "WideTextAction": 1,
+            "Fadeable": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_2_1_1",
+            "X": 276,
+            "Y": 156,
+            "Width": 124,
+            "Height": 38,
+            "TextId": "__SingleUse_0IZZ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 247,
+              "Green": 231,
+              "Blue": 49
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_NS3I",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_1_1",
+            "X": 211,
+            "Y": 170,
+            "Width": 56,
+            "Height": 24,
+            "TextId": "__SingleUse_5J4H",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 250,
+              "Green": 216,
+              "Blue": 22
+            },
+            "AutoSize": true,
+            "WideTextAction": 1,
+            "Fadeable": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_2_1_1_1",
+            "X": 276,
+            "Y": 196,
+            "Width": 124,
+            "Height": 38,
+            "TextId": "__SingleUse_1VWM",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 49,
+              "Green": 232,
+              "Blue": 245
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_MLIC",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_1_1_1",
+            "X": 211,
+            "Y": 210,
+            "Width": 42,
+            "Height": 24,
+            "TextId": "__SingleUse_6ZFI",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 49,
+              "Green": 232,
+              "Blue": 245
+            },
+            "AutoSize": true,
+            "WideTextAction": 1,
+            "Fadeable": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_2_1_1_1_1",
+            "X": 276,
+            "Y": 240,
+            "Width": 124,
+            "Height": 38,
+            "TextId": "__SingleUse_LJYU",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 49,
+              "Green": 232,
+              "Blue": 245
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_FNAA",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_1_1_1_1",
+            "X": 211,
+            "Y": 254,
+            "Width": 42,
+            "Height": 24,
+            "TextId": "__SingleUse_M9QB",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 49,
+              "Green": 232,
+              "Blue": 245
+            },
+            "AutoSize": true,
+            "WideTextAction": 1,
+            "Fadeable": true
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "lightMode",
+            "X": 738,
+            "Y": 3,
+            "Width": 62,
+            "Height": 34,
+            "Pressed": "__generated\\dark_theme_images_widgets_togglebutton_small_round_small_on_normal.png",
+            "Released": "__generated\\dark_theme_images_widgets_togglebutton_small_round_small_off_light.png",
+            "Preset": "dark_theme\\presets\\togglebutton\\small\\round_neutral.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "decreaseVoltage",
+            "X": 142,
+            "Y": 377,
+            "Width": 100,
+            "Height": 36,
+            "Visible": false,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_pressed.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_navigation_arrow_drop_down_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_drop_down_50_50_E8F6FB.svg.png",
+            "IconX": 25,
+            "IconY": -7,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "increaseVoltage",
+            "X": 300,
+            "Y": 377,
+            "Width": 100,
+            "Height": 36,
+            "Visible": false,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_pressed.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_navigation_arrow_drop_up_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_drop_up_50_50_E8F6FB.svg.png",
+            "IconX": 25,
+            "IconY": -7,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "increaseCurrent",
+            "X": 300,
+            "Y": 377,
+            "Width": 100,
+            "Height": 36,
+            "Visible": false,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_pressed.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_navigation_arrow_drop_up_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_drop_up_50_50_E8F6FB.svg.png",
+            "IconX": 25,
+            "IconY": -7,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "decreaseCurrent",
+            "X": 142,
+            "Y": 377,
+            "Width": 100,
+            "Height": 36,
+            "Visible": false,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_pressed.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_disabled.png",
+            "IconPressed": "__generated\\icon_theme_images_navigation_arrow_drop_down_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_drop_down_50_50_E8F6FB.svg.png",
+            "IconX": 25,
+            "IconY": -7,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "setVoltage",
+            "X": 404,
+            "Y": 430,
+            "Width": 115,
+            "Height": 57,
+            "ButtonTrigger": {
+              "Type": "ToggleButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "X": -9,
+                "Y": 16,
+                "TextId": "__SingleUse_95A4",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "ColorPressed": {
+                  "Red": 184,
+                  "Green": 180,
+                  "Blue": 180
+                }
+              },
+              {
+                "Type": "ImageButtonStyle",
+                "X": -1,
+                "Y": 10,
+                "Preset": "dark_theme\\presets\\button\\regular\\height_36\\tiny_round_disabled.json",
+                "ImageReleased": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_disabled.png",
+                "ImagePressed": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_disabled.png"
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "setCurrent",
+            "X": 507,
+            "Y": 430,
+            "Width": 115,
+            "Height": 57,
+            "ButtonTrigger": {
+              "Type": "ToggleButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "X": -9,
+                "Y": 16,
+                "TextId": "__SingleUse_EKN6",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "ColorPressed": {
+                  "Red": 184,
+                  "Green": 180,
+                  "Blue": 180
+                }
+              },
+              {
+                "Type": "ImageButtonStyle",
+                "X": -1,
+                "Y": 10,
+                "Preset": "dark_theme\\presets\\button\\regular\\height_36\\tiny_round_disabled.json",
+                "ImageReleased": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_disabled.png",
+                "ImagePressed": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_disabled.png"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "toggleMode",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "lightMode"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "South",
+              "ActionComponent": "Screen1_1"
+            }
+          },
+          {
+            "InteractionName": "showdecreaseVoltage",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "setVoltage"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "decreaseVoltage"
+            }
+          },
+          {
+            "InteractionName": "showIncreaseVoltage",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "setVoltage"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "increaseVoltage"
+            }
+          },
+          {
+            "InteractionName": "hideIncreaseVoltage",
+            "Trigger": {
+              "Type": "TriggerGraphClicked",
+              "TriggerComponent": "dynamicGraph1"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "increaseVoltage"
+            }
+          },
+          {
+            "InteractionName": "hideDecreaseVoltage",
+            "Trigger": {
+              "Type": "TriggerGraphClicked",
+              "TriggerComponent": "dynamicGraph1"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "decreaseVoltage"
+            }
+          },
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked"
+            },
+            "Action": {
+              "Type": "ActionNone"
+            }
+          },
+          {
+            "InteractionName": "showDecreaseCurrent",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "setCurrent"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "decreaseCurrent"
+            }
+          },
+          {
+            "InteractionName": "showIncreaseCurrent",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "setCurrent"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "increaseCurrent"
+            }
+          },
+          {
+            "InteractionName": "hideDecreaseCurrent",
+            "Trigger": {
+              "Type": "TriggerGraphClicked",
+              "TriggerComponent": "dynamicGraph1"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "decreaseCurrent"
+            }
+          },
+          {
+            "InteractionName": "hideIncreaseCurrent",
+            "Trigger": {
+              "Type": "TriggerGraphClicked",
+              "TriggerComponent": "dynamicGraph1"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "increaseCurrent"
+            }
+          },
+          {
+            "InteractionName": "disableDecreaseCurrent",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "setVoltage"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "decreaseCurrent"
+            }
+          },
+          {
+            "InteractionName": "disableIncreaseCurrent",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "setVoltage"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "increaseCurrent"
+            }
+          },
+          {
+            "InteractionName": "disableIncreaseVoltage",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "setCurrent"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "increaseVoltage"
+            }
+          },
+          {
+            "InteractionName": "disableDecreaseVoltage",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "setCurrent"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "decreaseVoltage"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen1_1",
+        "CanvasBufferSize": 12000,
+        "Components": [
+          {
+            "Type": "ScrollableContainer",
+            "Name": "scrollableContainer1",
+            "Y": 80,
+            "Width": 400,
+            "Height": 333,
+            "HorizontalScrollEnabled": true,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisibleOnPressed": true,
+            "ScrollbarsAlpha": 255,
+            "Components": []
+          },
+          {
+            "Type": "ScrollableContainer",
+            "Name": "scrollableContainer1_1",
+            "X": 400,
+            "Y": 80,
+            "Width": 400,
+            "Height": 333,
+            "HorizontalScrollEnabled": true,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisibleOnPressed": true,
+            "ScrollbarsAlpha": 255,
+            "Components": []
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1_1",
+            "Y": 28,
+            "Width": 400,
+            "Height": 412,
+            "Filename": "__generated\\dark_theme_images_containers_large_wide_outlined_light.png",
+            "ScalingAlgorithm": "Bilinear Interpolation"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "X": 400,
+            "Y": 28,
+            "Width": 400,
+            "Height": 412,
+            "Filename": "__generated\\dark_theme_images_containers_large_wide_outlined_light.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2",
+            "Width": 800,
+            "Height": 80,
+            "Filename": "__generated\\alternate_theme_images_effects_800x480_shade_bottom_light.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2_1",
+            "Y": 400,
+            "Width": 800,
+            "Height": 80,
+            "Filename": "__generated\\alternate_theme_images_effects_800x480_shade_top_light.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage3",
+            "Width": 242,
+            "Height": 40,
+            "Filename": "logo.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "DynamicGraph",
+            "Name": "dynamicGraph1",
+            "X": 400,
+            "Y": 80,
+            "Width": 400,
+            "Height": 320,
+            "DataSeed": 1077067039,
+            "NumberOfValues": 100,
+            "MaxY": 100.0,
+            "Precision": "0.001",
+            "UseCustomVisibleDataPointRange": true,
+            "LastIndex": 25,
+            "MapDataPointIndexToCustomValue": true,
+            "XAxisScale": 25.0,
+            "InsertRandomValues": true,
+            "GraphType": "GraphWrapOverwrite",
+            "GraphDrawers": [
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 4,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 166,
+                  "Green": 72,
+                  "Blue": 224
+                }
+              },
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 84,
+                  "Green": 227,
+                  "Blue": 79
+                }
+              },
+              {
+                "Type": "LineDrawer",
+                "LineWidth": 2,
+                "FileNameImage": "",
+                "Color": {
+                  "Red": 20,
+                  "Green": 151,
+                  "Blue": 197
+                }
+              }
+            ],
+            "XAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 168,
+                "Green": 176,
+                "Blue": 178
+              },
+              "Interval": 2.0,
+              "LineWidth": 1
+            },
+            "YAxisGrid": {
+              "Type": "GraphGrid",
+              "Color": {
+                "Red": 157,
+                "Green": 162,
+                "Blue": 163
+              },
+              "Interval": 10.0,
+              "LineWidth": 1
+            },
+            "XAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 10.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 153,
+                "Green": 161,
+                "Blue": 163
+              },
+              "TextId": "__SingleUse_17VJ",
+              "TextRotation": "0",
+              "Position": "Bottom"
+            },
+            "YAxisLabel": {
+              "Type": "GraphLabel",
+              "Interval": 10.0,
+              "DecimalSeparator": "Point",
+              "TextColor": {
+                "Red": 93,
+                "Green": 94,
+                "Blue": 94
+              },
+              "TextId": "__SingleUse_TV1T",
+              "TextRotation": "0",
+              "Position": "Left"
+            }
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel1",
+            "X": -22,
+            "Y": 418,
+            "Width": 150,
+            "Height": 80,
+            "Pressed": "__generated\\clay_theme_images_widgets_button_regular_height_36_tiny_round_pressed.png",
+            "Released": "__generated\\clay_theme_images_widgets_button_regular_height_36_tiny_round_pressed.png",
+            "TextId": "__SingleUse_EWZR",
+            "PressedColor": {
+              "Red": 194,
+              "Green": 140,
+              "Blue": 140
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel1_1",
+            "X": 76,
+            "Y": 418,
+            "Width": 150,
+            "Height": 80,
+            "Pressed": "__generated\\clay_theme_images_widgets_button_regular_height_36_tiny_round_pressed.png",
+            "Released": "__generated\\clay_theme_images_widgets_button_regular_height_36_tiny_round_normal.png",
+            "TextId": "__SingleUse_KAUU",
+            "PressedColor": {
+              "Red": 138,
+              "Green": 76,
+              "Blue": 76
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "overVoltageProtection",
+            "X": 576,
+            "Y": 418,
+            "Width": 150,
+            "Height": 80,
+            "Pressed": "__generated\\clay_theme_images_widgets_button_regular_height_36_tiny_round_pressed.png",
+            "Released": "__generated\\clay_theme_images_widgets_button_regular_height_36_tiny_round_normal.png",
+            "TextId": "__SingleUse_X0SJ",
+            "PressedColor": {
+              "Red": 46,
+              "Green": 27,
+              "Blue": 27
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "overCurrentProtection",
+            "X": 675,
+            "Y": 419,
+            "Width": 150,
+            "Height": 80,
+            "Pressed": "__generated\\clay_theme_images_widgets_button_regular_height_36_tiny_round_pressed.png",
+            "Released": "__generated\\clay_theme_images_widgets_button_regular_height_36_tiny_round_normal.png",
+            "TextId": "__SingleUse_T3QN",
+            "PressedColor": {
+              "Red": 46,
+              "Green": 27,
+              "Blue": 27
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "setCurrent",
+            "X": 479,
+            "Y": 418,
+            "Width": 150,
+            "Height": 80,
+            "Pressed": "__generated\\clay_theme_images_widgets_button_regular_height_36_tiny_round_pressed.png",
+            "Released": "__generated\\clay_theme_images_widgets_button_regular_height_36_tiny_round_normal.png",
+            "TextId": "__SingleUse_872V",
+            "PressedColor": {
+              "Red": 46,
+              "Green": 27,
+              "Blue": 27
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "buttonWithIcon1",
+            "X": 178,
+            "Y": 419,
+            "Width": 150,
+            "Height": 80,
+            "Pressed": "__generated\\clay_theme_images_widgets_button_regular_height_36_tiny_round_pressed.png",
+            "Released": "__generated\\clay_theme_images_widgets_button_regular_height_36_tiny_round_normal.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_outline_37_45_242829.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_done_37_45_000000.svg.png",
+            "IconX": 61,
+            "IconY": 18,
+            "IconHeight": 45,
+            "IconWidth": 37
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "buttonWithIcon1_1",
+            "X": 276,
+            "Y": 418,
+            "Width": 150,
+            "Height": 80,
+            "Pressed": "__generated\\clay_theme_images_widgets_button_regular_height_36_tiny_round_pressed.png",
+            "Released": "__generated\\clay_theme_images_widgets_button_regular_height_36_tiny_round_normal.png",
+            "IconPressed": "__generated\\icon_theme_images_action_list_32_32_041014.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_communication_list_alt_32_32_000000.svg.png",
+            "IconX": 60,
+            "IconY": 24,
+            "IconHeight": 32,
+            "IconWidth": 32
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 459,
+            "Y": 400,
+            "Width": 74,
+            "Height": 38,
+            "TextId": "__SingleUse_G1EU",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 105,
+              "Green": 227,
+              "Blue": 52
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_IS46",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_2",
+            "X": 276,
+            "Y": 80,
+            "Width": 124,
+            "Height": 38,
+            "TextId": "__SingleUse_PTN8",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 97,
+              "Green": 255,
+              "Blue": 69
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_WTH9",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_2_1",
+            "X": 276,
+            "Y": 118,
+            "Width": 124,
+            "Height": 38,
+            "TextId": "__SingleUse_JGDK",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 247,
+              "Green": 231,
+              "Blue": 49
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_06FI",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_2_1_2",
+            "Y": 87,
+            "Width": 200,
+            "Height": 69,
+            "TextId": "__SingleUse_6Y26",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 247,
+              "Green": 231,
+              "Blue": 49
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_ZQ26",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_2_1_2_1",
+            "Y": 160,
+            "Width": 200,
+            "Height": 69,
+            "TextId": "__SingleUse_UTMU",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 247,
+              "Green": 231,
+              "Blue": 49
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_7JJK",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_2_1_2_2",
+            "Y": 232,
+            "Width": 200,
+            "Height": 69,
+            "TextId": "__SingleUse_OP1Y",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 187,
+              "Green": 69,
+              "Blue": 214
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_0SDB",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1",
+            "X": 533,
+            "Y": 400,
+            "Width": 67,
+            "Height": 38,
+            "TextId": "__SingleUse_S4CQ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 161,
+              "Green": 111,
+              "Blue": 227
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_46KD",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1_1",
+            "X": 622,
+            "Y": 400,
+            "Width": 178,
+            "Height": 38,
+            "TextId": "__SingleUse_952Z",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 101,
+              "Green": 194,
+              "Blue": 235
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_2668",
+              "UseBuffer": true,
+              "BufferSize": 100
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 211,
+            "Y": 94,
+            "Width": 62,
+            "Height": 24,
+            "TextId": "__SingleUse_M32H",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 92,
+              "Green": 209,
+              "Blue": 42
+            },
+            "AutoSize": true,
+            "WideTextAction": 1,
+            "Fadeable": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_1",
+            "X": 211,
+            "Y": 132,
+            "Width": 62,
+            "Height": 24,
+            "TextId": "__SingleUse_28YB",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 250,
+              "Green": 216,
+              "Blue": 22
+            },
+            "AutoSize": true,
+            "WideTextAction": 1,
+            "Fadeable": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_2_1_1",
+            "X": 276,
+            "Y": 156,
+            "Width": 124,
+            "Height": 38,
+            "TextId": "__SingleUse_WJE9",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 247,
+              "Green": 231,
+              "Blue": 49
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_0JFB",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_1_1",
+            "X": 211,
+            "Y": 170,
+            "Width": 56,
+            "Height": 24,
+            "TextId": "__SingleUse_53HH",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 250,
+              "Green": 216,
+              "Blue": 22
+            },
+            "AutoSize": true,
+            "WideTextAction": 1,
+            "Fadeable": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_2_1_1_1",
+            "X": 276,
+            "Y": 196,
+            "Width": 124,
+            "Height": 38,
+            "TextId": "__SingleUse_MTH8",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 49,
+              "Green": 232,
+              "Blue": 245
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_GBA7",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_1_1_1",
+            "X": 211,
+            "Y": 210,
+            "Width": 42,
+            "Height": 24,
+            "TextId": "__SingleUse_OA2R",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 49,
+              "Green": 232,
+              "Blue": 245
+            },
+            "AutoSize": true,
+            "WideTextAction": 1,
+            "Fadeable": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_2_1_1_1_1",
+            "X": 276,
+            "Y": 240,
+            "Width": 124,
+            "Height": 38,
+            "TextId": "__SingleUse_V8K2",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 49,
+              "Green": 232,
+              "Blue": 245
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_T93U",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_1_1_1_1",
+            "X": 211,
+            "Y": 254,
+            "Width": 42,
+            "Height": 24,
+            "TextId": "__SingleUse_EV09",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 49,
+              "Green": 232,
+              "Blue": 245
+            },
+            "AutoSize": true,
+            "WideTextAction": 1,
+            "Fadeable": true
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "darkMode",
+            "X": 738,
+            "Width": 62,
+            "Height": 34,
+            "Pressed": "__generated\\light_theme_images_widgets_togglebutton_small_round_small_on_normal.png",
+            "Released": "__generated\\light_theme_images_widgets_togglebutton_small_round_small_off_light.png",
+            "Preset": "light_theme\\presets\\togglebutton\\small\\round_neutral.json"
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 396,
+            "Y": 28,
+            "Width": 8,
+            "Height": 320,
+            "RelativeFilename": "__generated\\clay_theme_images_dividers_vertical_large_thick_light.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image1_1",
+            "X": 396,
+            "Y": 118,
+            "Width": 8,
+            "Height": 320,
+            "RelativeFilename": "__generated\\clay_theme_images_dividers_vertical_large_thick_light.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "toggleSetVoltage",
+            "X": 404,
+            "Y": 430,
+            "Width": 115,
+            "Height": 57,
+            "ButtonTrigger": {
+              "Type": "ToggleButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "X": -9,
+                "Y": 16,
+                "TextId": "__SingleUse_MSUP",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                },
+                "ColorPressed": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                }
+              },
+              {
+                "Type": "ImageButtonStyle",
+                "X": -29,
+                "Y": -11,
+                "Preset": "clay_theme\\presets\\button\\regular\\height_36\\tiny_round_normal.json",
+                "ImageReleased": "__generated\\clay_theme_images_widgets_button_regular_height_36_tiny_round_normal.png",
+                "ImagePressed": "__generated\\clay_theme_images_widgets_button_regular_height_36_tiny_round_pressed.png"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "drakMode",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "darkMode"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "South",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "PSU_GUI",
+    "Resolution": {
+      "Width": 800,
+      "Height": 480
+    },
+    "SelectedColorDepth": 24,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      24
+    ],
+    "AvailableLCDs": {
+      "24": "LCDGPU2D"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 800,
+        "Height": 480
+      }
+    ],
+    "PhysicalButtons": [],
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32U5",
+    "SubFamily": "STM32U599/5A9",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m33",
+    "ProjectFile": "../Riverdi_50STM32U5A9.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [
+      "GPU2D"
+    ],
+    "AdditionalFeatures": []
+  },
+  "Version": "4.25.0",
+  "CreatedBy": "4.25.0"
+}

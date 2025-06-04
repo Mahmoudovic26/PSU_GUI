@@ -19,10 +19,12 @@ public:
     virtual void decreaseSetOVP();
     virtual void increaseSetOCP();
     virtual void decreaseSetOCP();
+    virtual void vSetted( );
 
 protected:
     volatile float setVoltage = 0.00;
     volatile float setCurrent = 0.00;
+    volatile float settedVoltage = 0.00;
     volatile float setOCP = 0.00;
     volatile float setOVP = 0.00;
 };

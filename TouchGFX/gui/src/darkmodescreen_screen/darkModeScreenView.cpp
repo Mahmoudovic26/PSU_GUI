@@ -19,6 +19,8 @@ void darkModeScreenView::increaseSetVoltage(){
     int volt_int = (int)setVoltage;
     int volt_frac = (int)((setVoltage - volt_int) * 100); // 2 decimal places
     if (volt_frac < 0) volt_frac = -volt_frac;
+       // vSetted(setVoltage); // Update the set voltage display as well
+
     Unicode::snprintf(vSetValueBuffer, VSETVALUE_SIZE, "%d.%02d", volt_int, volt_frac);
     vSetValue.invalidate();
 }
@@ -27,6 +29,8 @@ void darkModeScreenView::decreaseSetVoltage(){
     int volt_int = (int)setVoltage;
     int volt_frac = (int)((setVoltage - volt_int) * 100);
     if (volt_frac < 0) volt_frac = -volt_frac;
+      //  vSetted(setVoltage); // Update the set voltage display as well
+
     Unicode::snprintf(vSetValueBuffer, VSETVALUE_SIZE, "%d.%02d", volt_int, volt_frac);
     vSetValue.invalidate();
 }
@@ -80,6 +84,15 @@ void darkModeScreenView::decreaseSetOCP(){
     Unicode::snprintf(ocpValueBuffer, OCPVALUE_SIZE, "%d.%02d", ocp_int, ocp_frac);
     ocpValue.invalidate();
 }
+void darkModeScreenView::vSetted( ) {
+    settedVoltage = setVoltage;
+    int volt_int = (int)settedVoltage;
+    int volt_frac = (int)((settedVoltage - volt_int) * 100); // 2 decimal places
+    if (volt_frac < 0) volt_frac = -volt_frac;
+    Unicode::snprintf(outVoltageBuffer, OUTVOLTAGE_SIZE, "%d.%02d", volt_int, volt_frac);
+    outVoltage.invalidate();
+}
+
 /*
 void darkModeScreenView::setADC(int val){
 	Unicode::snprintf(outVoltageBuffer, OUTVOLTAGE_SIZE, "%d", val);

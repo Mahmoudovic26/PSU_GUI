@@ -142,29 +142,17 @@
     <Filter Include="Source Files\gui\model">
       <UniqueIdentifier>376E002A-27FC-31AF-8797-8DC0C2A56D3D</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\gui\screen1_screen">
-      <UniqueIdentifier>C413D042-4E57-7D38-7809-95A8494F6675</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\generated\gui_generated">
       <UniqueIdentifier>168E8E15-DE48-D11C-5812-6BA809CC1924</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\gui\common">
       <UniqueIdentifier>CF3754F3-AA76-EBD8-3E0F-6BFE1F63F6E5</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\gui\screen1_screen">
-      <UniqueIdentifier>2188EA82-9167-CACE-43F4-F3C717D3ED80</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\generated\gui_generated">
       <UniqueIdentifier>7F4C1CF1-D498-59E5-E6EC-2BF2AE9586F0</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\gui\common">
       <UniqueIdentifier>A5033264-09AC-5251-A7EA-000C260B7C63</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\generated\gui_generated\screen1_screen">
-      <UniqueIdentifier>76196D6A-779B-B80F-D011-DFD8F160BDC1</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\generated\gui_generated\screen1_screen">
-      <UniqueIdentifier>00A3AD23-6721-D16A-D86B-DCB5A34CC3B4</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\generated\simulator\include">
       <UniqueIdentifier>06742D9A-D0C1-F92D-4B97-EFBC7FD98049</UniqueIdentifier>
@@ -184,17 +172,17 @@
     <Filter Include="Header Files\generated\simulator\include\simulator\video">
       <UniqueIdentifier>37080E85-01FF-9329-0E8E-04357083554B</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\gui\screen1_1_screen">
-      <UniqueIdentifier>4DA41C04-1D3D-7E63-3578-C7D023550C72</UniqueIdentifier>
+    <Filter Include="Source Files\gui\darkmodescreen_screen">
+      <UniqueIdentifier>3B38D58F-31FF-A2C1-EF8B-51F181CF185C</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\gui\screen1_1_screen">
-      <UniqueIdentifier>F3B333F8-3013-0509-58A7-32C10362DA5E</UniqueIdentifier>
+    <Filter Include="Header Files\gui\darkmodescreen_screen">
+      <UniqueIdentifier>A0A2D2B9-2294-625C-79E2-90F95BD8B24C</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\generated\gui_generated\screen1_1_screen">
-      <UniqueIdentifier>40085426-B9CC-5263-F70B-B00D22FA9775</UniqueIdentifier>
+    <Filter Include="Header Files\generated\gui_generated\darkmodescreen_screen">
+      <UniqueIdentifier>C2346385-41DF-C771-5AD3-42BF605B4130</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\generated\gui_generated\screen1_1_screen">
-      <UniqueIdentifier>2CB7A459-8299-F96B-8EA8-73DFCEB2335B</UniqueIdentifier>
+    <Filter Include="Source Files\generated\gui_generated\darkmodescreen_screen">
+      <UniqueIdentifier>4F49D8BD-DE8D-5170-278A-505F80524898</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -225,26 +213,17 @@
     <ClCompile Include="..\..\gui\src\model\Model.cpp">
       <Filter>Source Files\gui\model</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\screen1_screen\Screen1Presenter.cpp">
-      <Filter>Source Files\gui\screen1_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gui\src\screen1_screen\Screen1View.cpp">
-      <Filter>Source Files\gui\screen1_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\screen1_screen\Screen1ViewBase.cpp">
-      <Filter>Source Files\generated\gui_generated\screen1_screen</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\generated\simulator\src\video\SoftwareMJPEGDecoder.cpp">
       <Filter>Source Files\generated\simulator\video</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\screen1_1_screen\Screen1_1Presenter.cpp">
-      <Filter>Source Files\gui\screen1_1_screen</Filter>
+    <ClCompile Include="..\..\gui\src\darkmodescreen_screen\darkModeScreenPresenter.cpp">
+      <Filter>Source Files\gui\darkmodescreen_screen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\screen1_1_screen\Screen1_1View.cpp">
-      <Filter>Source Files\gui\screen1_1_screen</Filter>
+    <ClCompile Include="..\..\gui\src\darkmodescreen_screen\darkModeScreenView.cpp">
+      <Filter>Source Files\gui\darkmodescreen_screen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\screen1_1_screen\Screen1_1ViewBase.cpp">
-      <Filter>Source Files\generated\gui_generated\screen1_1_screen</Filter>
+    <ClCompile Include="..\..\generated\gui_generated\src\darkmodescreen_screen\darkModeScreenViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\darkmodescreen_screen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -682,29 +661,20 @@
     <ClInclude Include="..\..\gui\include\gui\model\ModelListener.hpp">
       <Filter>Header Files\gui\model</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\screen1_screen\Screen1Presenter.hpp">
-      <Filter>Header Files\gui\screen1_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\screen1_screen\Screen1View.hpp">
-      <Filter>Header Files\gui\screen1_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\screen1_screen\Screen1ViewBase.hpp">
-      <Filter>Header Files\generated\gui_generated\screen1_screen</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\common\SimConstants.hpp">
       <Filter>Header Files\generated\gui_generated\common</Filter>
     </ClInclude>
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\SoftwareMJPEGDecoder.hpp">
       <Filter>Header Files\generated\simulator\include\simulator\video</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\screen1_1_screen\Screen1_1Presenter.hpp">
-      <Filter>Header Files\gui\screen1_1_screen</Filter>
+    <ClInclude Include="..\..\gui\include\gui\darkmodescreen_screen\darkModeScreenPresenter.hpp">
+      <Filter>Header Files\gui\darkmodescreen_screen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\screen1_1_screen\Screen1_1View.hpp">
-      <Filter>Header Files\gui\screen1_1_screen</Filter>
+    <ClInclude Include="..\..\gui\include\gui\darkmodescreen_screen\darkModeScreenView.hpp">
+      <Filter>Header Files\gui\darkmodescreen_screen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\screen1_1_screen\Screen1_1ViewBase.hpp">
-      <Filter>Header Files\generated\gui_generated\screen1_1_screen</Filter>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\darkmodescreen_screen\darkModeScreenViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\darkmodescreen_screen</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

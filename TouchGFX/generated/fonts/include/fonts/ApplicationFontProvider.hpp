@@ -19,17 +19,21 @@ struct Typography
     static const touchgfx::FontId TYPOGRAPHY_00 = 3;
     static const touchgfx::FontId TYPOGRAPHY_01 = 4;
     static const touchgfx::FontId TYPOGRAPHY_02 = 5;
+    static const touchgfx::FontId TYPOGRAPHY_03 = 6;
+    static const touchgfx::FontId TYPOGRAPHY_04 = 7;
 };
 
 struct TypographyFontIndex
 {
-    static const touchgfx::FontId DEFAULT = 0;       // verdana_20_4bpp
-    static const touchgfx::FontId LARGE = 1;         // andlso_38_4bpp
-    static const touchgfx::FontId SMALL = 2;         // verdana_13_4bpp
-    static const touchgfx::FontId TYPOGRAPHY_00 = 0; // verdana_20_4bpp
-    static const touchgfx::FontId TYPOGRAPHY_01 = 3; // verdana_52_4bpp
-    static const touchgfx::FontId TYPOGRAPHY_02 = 4; // verdana_56_4bpp
-    static const uint16_t NUMBER_OF_FONTS = 5;
+    static const touchgfx::FontId DEFAULT = 0;       // gadugib_20_4bpp
+    static const touchgfx::FontId LARGE = 1;         // gadugib_38_4bpp
+    static const touchgfx::FontId SMALL = 2;         // gadugib_13_4bpp
+    static const touchgfx::FontId TYPOGRAPHY_00 = 0; // gadugib_20_4bpp
+    static const touchgfx::FontId TYPOGRAPHY_01 = 3; // gadugib_52_4bpp
+    static const touchgfx::FontId TYPOGRAPHY_02 = 4; // gadugib_59_4bpp
+    static const touchgfx::FontId TYPOGRAPHY_03 = 5; // gadugib_42_4bpp
+    static const touchgfx::FontId TYPOGRAPHY_04 = 6; // verdanaz_49_4bpp
+    static const uint16_t NUMBER_OF_FONTS = 7;
 };
 
 class ApplicationFontProvider : public touchgfx::FontProvider

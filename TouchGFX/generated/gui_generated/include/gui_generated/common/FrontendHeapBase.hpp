@@ -9,16 +9,11 @@
 #include <mvp/MVPHeap.hpp>
 
 #include <touchgfx/transitions/NoTransition.hpp>
-#include <touchgfx/transitions/WipeTransition.hpp>
-#include <touchgfx/transitions/SlideTransition.hpp>
-
 #include <gui/common/FrontendApplication.hpp>
 #include <gui/model/Model.hpp>
 
-#include <gui/screen1_screen/Screen1View.hpp>
-#include <gui/screen1_screen/Screen1Presenter.hpp>
-#include <gui/screen1_1_screen/Screen1_1View.hpp>
-#include <gui/screen1_1_screen/Screen1_1Presenter.hpp>
+#include <gui/darkmodescreen_screen/darkModeScreenView.hpp>
+#include <gui/darkmodescreen_screen/darkModeScreenPresenter.hpp>
 
 
 /**
@@ -41,9 +36,8 @@ public:
      * A list of all view types. Must end with meta::Nil.
      * @note All view types used in the application MUST be added to this list!
      */
-    typedef touchgfx::meta::TypeList< Screen1View,
-            touchgfx::meta::TypeList< Screen1_1View,
-            touchgfx::meta::Nil >
+    typedef touchgfx::meta::TypeList< darkModeScreenView,
+            touchgfx::meta::Nil
             > GeneratedViewTypes;
 
     /**
@@ -55,9 +49,8 @@ public:
      * A list of all presenter types. Must end with meta::Nil.
      * @note All presenter types used in the application MUST be added to this list!
      */
-    typedef touchgfx::meta::TypeList< Screen1Presenter,
-            touchgfx::meta::TypeList< Screen1_1Presenter,
-            touchgfx::meta::Nil >
+    typedef touchgfx::meta::TypeList< darkModeScreenPresenter,
+            touchgfx::meta::Nil
             > GeneratedPresenterTypes;
 
     /**
@@ -70,9 +63,7 @@ public:
      * @note All transition types used in the application MUST be added to this list!
      */
     typedef touchgfx::meta::TypeList< touchgfx::NoTransition,
-            touchgfx::meta::TypeList< WipeTransition<SOUTH>,
-            touchgfx::meta::TypeList< SlideTransition<SOUTH>,
-            touchgfx::meta::Nil > >
+            touchgfx::meta::Nil
             > GeneratedTransitionTypes;
 
     /**
@@ -82,7 +73,7 @@ public:
 
     virtual void gotoStartScreen(FrontendApplication& app)
     {
-        app.gotoScreen1ScreenNoTransition();
+        app.gotodarkModeScreenScreenNoTransition();
     }
 protected:
     FrontendHeapBase(touchgfx::AbstractPartition& presenters, touchgfx::AbstractPartition& views, touchgfx::AbstractPartition& transitions, FrontendApplication& app)

@@ -1,0 +1,3 @@
+# Ignore TouchGFX build output
+TouchGFX/build/
+TouchGFX/build/**

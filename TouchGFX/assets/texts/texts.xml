@@ -6,131 +6,74 @@
   <Texts>
     <TextGroup Id="Group1" />
     <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_XKEL" Alignment="Left" TypographyId="Typography_04">
+        <Translation Language="GB">LABTRONIC</Translation>
+      </Text>
+      <Text Id="__SingleUse_3A8D" Alignment="Left" TypographyId="Typography_01">
+        <Translation Language="GB">PSU</Translation>
+      </Text>
+      <Text Id="__SingleUse_URT6" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">OUTPUT</Translation>
+      </Text>
+      <Text Id="__SingleUse_J095" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Protection</Translation>
+      </Text>
+      <Text Id="__SingleUse_DH89" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">SetPoint</Translation>
+      </Text>
+      <Text Id="__SingleUse_BYJ1" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">INPUT</Translation>
+      </Text>
+      <Text Id="temp" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">999</Translation>
+      </Text>
+      <Text Id="__SingleUse_7HPE" Alignment="Right" TypographyId="Large">
+        <Translation Language="GB">&lt;value&gt;F</Translation>
+      </Text>
+      <Text Id="__SingleUse_WAZ3" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">9999.99</Translation>
+      </Text>
+      <Text Id="__SingleUse_4B72" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">&lt;value&gt;Wh</Translation>
+      </Text>
+      <Text Id="__SingleUse_8H2T" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">999</Translation>
+      </Text>
+      <Text Id="__SingleUse_MRIM" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">&lt;value&gt;A </Translation>
+      </Text>
+      <Text Id="__SingleUse_ZGTH" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">in-I</Translation>
+      </Text>
+      <Text Id="__SingleUse_L9YD" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">999.9</Translation>
+      </Text>
+      <Text Id="__SingleUse_P3FV" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">&lt;value&gt;W</Translation>
+      </Text>
+      <Text Id="__SingleUse_6FYS" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">in-W</Translation>
+      </Text>
       <Text Id="__SingleUse_EKN6" Alignment="Center" TypographyId="Default">
         <Translation Language="GB">Set-I</Translation>
       </Text>
       <Text Id="__SingleUse_95A4" Alignment="Center" TypographyId="Default">
         <Translation Language="GB">Set-V</Translation>
       </Text>
-      <Text Id="__SingleUse_MSUP" Alignment="Center" TypographyId="Default">
-        <Translation Language="GB">Set-V</Translation>
-      </Text>
-      <Text Id="__SingleUse_T3QN" Alignment="Center" TypographyId="Default">
-        <Translation Language="GB">OCP</Translation>
-      </Text>
-      <Text Id="__SingleUse_872V" Alignment="Center" TypographyId="Default">
-        <Translation Language="GB">Set-I</Translation>
-      </Text>
-      <Text Id="__SingleUse_X0SJ" Alignment="Center" TypographyId="Default">
-        <Translation Language="GB">OVP</Translation>
-      </Text>
-      <Text Id="__SingleUse_EV09" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">OCP</Translation>
-      </Text>
-      <Text Id="__SingleUse_T93U" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">12.00</Translation>
-      </Text>
-      <Text Id="__SingleUse_V8K2" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">&lt;value&gt;A </Translation>
-      </Text>
-      <Text Id="__SingleUse_OA2R" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">OVP</Translation>
-      </Text>
-      <Text Id="__SingleUse_GBA7" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">60.00</Translation>
-      </Text>
-      <Text Id="__SingleUse_MTH8" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">&lt;value&gt;V </Translation>
-      </Text>
-      <Text Id="__SingleUse_53HH" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">I-SET</Translation>
-      </Text>
-      <Text Id="__SingleUse_0JFB" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">11.10</Translation>
-      </Text>
-      <Text Id="__SingleUse_WJE9" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">&lt;value&gt;A </Translation>
-      </Text>
-      <Text Id="__SingleUse_28YB" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">V-SET</Translation>
-      </Text>
-      <Text Id="__SingleUse_M32H" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">INPUT</Translation>
-      </Text>
-      <Text Id="__SingleUse_2668" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">000.000</Translation>
-      </Text>
-      <Text Id="__SingleUse_952Z" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">&lt;value&gt;Ah</Translation>
-      </Text>
-      <Text Id="__SingleUse_46KD" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">77</Translation>
-      </Text>
-      <Text Id="__SingleUse_S4CQ" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">&lt;value&gt;F </Translation>
-      </Text>
-      <Text Id="__SingleUse_0SDB" Alignment="Left" TypographyId="Typography_01">
-        <Translation Language="GB">605.0</Translation>
-      </Text>
-      <Text Id="__SingleUse_OP1Y" Alignment="Left" TypographyId="Typography_01">
-        <Translation Language="GB">&lt;value&gt;W </Translation>
-      </Text>
-      <Text Id="__SingleUse_7JJK" Alignment="Left" TypographyId="Typography_02">
-        <Translation Language="GB">11.00</Translation>
-      </Text>
-      <Text Id="__SingleUse_UTMU" Alignment="Left" TypographyId="Typography_02">
-        <Translation Language="GB">&lt;value&gt;A </Translation>
-      </Text>
-      <Text Id="__SingleUse_ZQ26" Alignment="Left" TypographyId="Typography_02">
-        <Translation Language="GB">55.00</Translation>
-      </Text>
-      <Text Id="__SingleUse_6Y26" Alignment="Left" TypographyId="Typography_02">
-        <Translation Language="GB">&lt;value&gt;V </Translation>
-      </Text>
-      <Text Id="__SingleUse_06FI" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">55.00</Translation>
-      </Text>
-      <Text Id="__SingleUse_JGDK" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">&lt;value&gt;V </Translation>
-      </Text>
-      <Text Id="__SingleUse_WTH9" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">65.00</Translation>
-      </Text>
-      <Text Id="__SingleUse_PTN8" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">&lt;value&gt;V </Translation>
-      </Text>
-      <Text Id="__SingleUse_IS46" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">25</Translation>
-      </Text>
-      <Text Id="__SingleUse_G1EU" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">&lt;value&gt;C </Translation>
-      </Text>
-      <Text Id="__SingleUse_KAUU" Alignment="Center" TypographyId="Default">
-        <Translation Language="GB">CV</Translation>
-      </Text>
-      <Text Id="__SingleUse_EWZR" Alignment="Center" TypographyId="Default">
-        <Translation Language="GB">MO</Translation>
-      </Text>
-      <Text Id="__SingleUse_TV1T" Alignment="Right" TypographyId="Default">
-        <Translation Language="GB">&lt;&gt;</Translation>
-      </Text>
-      <Text Id="__SingleUse_17VJ" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">&lt;&gt;</Translation>
-      </Text>
       <Text Id="__SingleUse_OH3U" Alignment="Left" TypographyId="Typography_01">
-        <Translation Language="GB">605.0</Translation>
+        <Translation Language="GB">999.99</Translation>
       </Text>
       <Text Id="__SingleUse_DZU7" Alignment="Left" TypographyId="Typography_01">
         <Translation Language="GB">&lt;value&gt;W </Translation>
       </Text>
       <Text Id="__SingleUse_9K3B" Alignment="Left" TypographyId="Typography_02">
-        <Translation Language="GB">11.00</Translation>
+        <Translation Language="GB">999.99</Translation>
       </Text>
       <Text Id="__SingleUse_521A" Alignment="Left" TypographyId="Typography_02">
         <Translation Language="GB">&lt;value&gt;A </Translation>
       </Text>
       <Text Id="__SingleUse_XOIK" Alignment="Left" TypographyId="Typography_02">
-        <Translation Language="GB">55.00</Translation>
+        <Translation Language="GB">999.99</Translation>
       </Text>
       <Text Id="__SingleUse_3ZBU" Alignment="Left" TypographyId="Typography_02">
         <Translation Language="GB">&lt;value&gt;V </Translation>
@@ -154,10 +97,10 @@
         <Translation Language="GB">OVP</Translation>
       </Text>
       <Text Id="__SingleUse_NS3I" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">11.10</Translation>
+        <Translation Language="GB">999</Translation>
       </Text>
       <Text Id="__SingleUse_0IZZ" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">&lt;value&gt;A </Translation>
+        <Translation Language="GB">&lt;value&gt;A      </Translation>
       </Text>
       <Text Id="__SingleUse_5J4H" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">I-SET</Translation>
@@ -166,13 +109,13 @@
         <Translation Language="GB">V-SET</Translation>
       </Text>
       <Text Id="__SingleUse_PLC4" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">INPUT</Translation>
+        <Translation Language="GB">in-V</Translation>
       </Text>
       <Text Id="__SingleUse_754Z" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">55.00</Translation>
+        <Translation Language="GB">9999</Translation>
       </Text>
       <Text Id="__SingleUse_S1FZ" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">&lt;value&gt;V </Translation>
+        <Translation Language="GB">&lt;value&gt;V         </Translation>
       </Text>
       <Text Id="__SingleUse_RSAU" Alignment="Center" TypographyId="Default">
         <Translation Language="GB">Set-OCP</Translation>
@@ -186,29 +129,11 @@
       <Text Id="__SingleUse_CSUH" Alignment="Left" TypographyId="Large">
         <Translation Language="GB">&lt;value&gt;V </Translation>
       </Text>
-      <Text Id="__SingleUse_XXG2" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">000.000</Translation>
+      <Text Id="__SingleUse_XXG2" Alignment="Left" TypographyId="Typography_03">
+        <Translation Language="GB">9999.99</Translation>
       </Text>
-      <Text Id="__SingleUse_PBKS" Alignment="Left" TypographyId="Large">
+      <Text Id="__SingleUse_PBKS" Alignment="Left" TypographyId="Typography_03">
         <Translation Language="GB">&lt;value&gt;Ah</Translation>
-      </Text>
-      <Text Id="__SingleUse_35A4" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">77</Translation>
-      </Text>
-      <Text Id="__SingleUse_4ML6" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">&lt;value&gt;F </Translation>
-      </Text>
-      <Text Id="__SingleUse_FPDT" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">25</Translation>
-      </Text>
-      <Text Id="__SingleUse_XTRP" Alignment="Left" TypographyId="Large">
-        <Translation Language="GB">&lt;value&gt;C </Translation>
-      </Text>
-      <Text Id="__SingleUse_09ND" Alignment="Center" TypographyId="Default">
-        <Translation Language="GB">CV</Translation>
-      </Text>
-      <Text Id="__SingleUse_2SHY" Alignment="Center" TypographyId="Default">
-        <Translation Language="GB">MO</Translation>
       </Text>
       <Text Id="__SingleUse_946F" Alignment="Right" TypographyId="Default">
         <Translation Language="GB">&lt;&gt;</Translation>
@@ -219,11 +144,13 @@
     </TextGroup>
   </Texts>
   <Typographies>
-    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="-., 0123456789" />
-    <Typography Id="Large" Font="andlso.ttf" Size="38" Bpp="4" IsVector="no" Direction="RTL" FallbackCharacter="?" />
-    <Typography Id="Small" Font="verdana.ttf" Size="13" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="Typography_00" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="Typography_01" Font="verdana.ttf" Size="52" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="Typography_02" Font="verdana.ttf" Size="56" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Default" Font="gadugib.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="-., 0123456789" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="Large" Font="gadugib.ttf" Size="38" Bpp="4" IsVector="no" Direction="RTL" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="Small" Font="gadugib.ttf" Size="13" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="Typography_00" Font="gadugib.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="Typography_01" Font="gadugib.ttf" Size="52" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="Typography_02" Font="gadugib.ttf" Size="59" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7E" />
+    <Typography Id="Typography_03" Font="gadugib.ttf" Size="42" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_04" Font="verdanaz.ttf" Size="49" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
   </Typographies>
 </TextDatabase>
